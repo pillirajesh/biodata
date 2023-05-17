@@ -1,0 +1,50 @@
+.about-container {
+  height: 100vh;
+}
+
+.picture {
+  width: 140px;
+  height: 140px;
+  border-radius: 10px;
+  margin-right: 100px;
+  border: 1px solid goldenrod;
+}
+
+#profile-name {
+  font-family: "roboto";
+  color: black;
+  font-size: 18px;
+}
+
+.special {
+  font-family: "roboto";
+  color: black;
+  font-weight: bold;
+}
+
+.profile-cont {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.about {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 20px;
+  padding: 20px;
+  width: 90vw;
+  margin-left: 60px;
+  margin-top: 70px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.description {
+  width: 800px;
+}
+
+.star {
+  color: gold;
+}
