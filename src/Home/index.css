@@ -17,6 +17,8 @@
   font-weight: bold;
   color: white;
   font-size: 40px;
+  color: rgb(195, 226, 43);
+  font-style: italic;
 }
 
 .job-description {
@@ -25,4 +27,5 @@
   font-style: italic;
   color: white;
   font-size: 25px;
+  border-right: 3px solid yellow;
 }

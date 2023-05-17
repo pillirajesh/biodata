@@ -6,8 +6,8 @@ const Home = () => {
     <div className="home-container">
       <Header />
       <div className="middle-container">
-        <h1 className="profile-name">I am Pilli Rajesh Sombabu</h1>
-        <p className="job-description">Full Stack Developer |</p>
+        <h1 className="profile-name">I'm Pilli Rajesh Sombabu</h1>
+        <p className="job-description">Full Stack Developer</p>
       </div>
     </div>
   );

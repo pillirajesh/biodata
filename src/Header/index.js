@@ -6,7 +6,11 @@ const Header = () => {
     <>
       <nav className="header-container  ">
         <Link to="/" className="link">
-          <p className="name">Pilli Rajesh</p>
+          <img
+            src="https://res.cloudinary.com/djoz0tmyl/image/upload/v1684313904/photo_-_Copy_c7lkcw.jpg"
+            alt="profile"
+            className="pic"
+          />
         </Link>
         <ul className="unordered-list">
           <Link className="link" to="/">
@@ -25,7 +29,11 @@ const Header = () => {
       </nav>
       <nav class="navbar bg-body-tertiary fixed-top small-header-container">
         <div class="container-fluid">
-          <h5 className="name">Pilli Rajesh</h5>
+          <img
+            src="https://res.cloudinary.com/djoz0tmyl/image/upload/v1684313904/photo_-_Copy_c7lkcw.jpg"
+            alt="profile"
+            className="pic"
+          />
           <button
             class="navbar-toggler"
             type="button"
