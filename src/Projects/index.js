@@ -11,9 +11,8 @@ const Projects = () => {
     },
 
     {
-      image:
-        "https://i0.wp.com/kashmirreader.com/wp-content/uploads/2020/05/weather-forecast.jpg?fit=701%2C377&ssl=1",
-      url: "https://github.com/pillirajesh/weather-app.git",
+      image: "https://images.indianexpress.com/2019/04/cyclone759.jpg?w=389",
+      url: "https://project-weather-85f4c.firebaseapp.com/",
       name: "Weather Forecast",
     },
 
@@ -61,7 +60,7 @@ const Projects = () => {
 
     {
       image:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqKBGzSyCIs-RsbnRcjyUcLJGl1TJ0hwukuQ&usqp=CAU",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRjFJO88-gJ9TZuqCye6NDJe002oNcH6ladg&usqp=CAU",
       url: "https://rajrandomjokes.ccbp.tech",
       name: "Random Jokes",
     },
