@@ -6,8 +6,8 @@ const Projects = () => {
     {
       image:
         "https://www.livelaw.in/h-upload/2020/04/17/1500x900_373262-aarogya-setu-app-1.jpg",
-      url: "https://github.com/pillirajesh/cowinDashBoard.git",
-      name: "Covin Dashboard",
+      url: "https://cowin-dashoard.web.app/",
+      name: "Cowin Dashboard",
     },
 
     {
