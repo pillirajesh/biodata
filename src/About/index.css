@@ -1,5 +1,9 @@
 .about-container {
   height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .picture {
@@ -36,7 +40,6 @@
   margin-top: 20px;
   padding: 20px;
   width: 90vw;
-  margin-left: 60px;
   margin-top: 70px;
   border-radius: 10px;
   background-color: white;
@@ -48,4 +51,39 @@
 
 .star {
   color: gold;
+}
+
+@media screen and (max-width: 767px) {
+  .about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .description {
+    width: 400px;
+    margin-bottom: 20px;
+    height: 180px;
+    font-size: 15px;
+  }
+
+  .about-container {
+    overflow-y: scroll;
+  }
+
+  .skills {
+    height: 200px;
+    margin-bottom: 40px;
+    font-size: 15px;
+  }
+
+  .profile-cont {
+    height: 180px;
+    margin-top: 40px;
+  }
+
+  #profile-name {
+    font-size: 15px;
+  }
 }

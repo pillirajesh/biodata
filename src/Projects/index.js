@@ -87,19 +87,21 @@ const Projects = () => {
     },
   ];
   return (
-    <div className="contact-container">
+    <>
       <Header />
-      <ul className="unordered">
-        {projects.map((each) => (
-          <li key={each.name} className="list">
-            <Link to={each.url} className="link">
-              <img src={each.image} alt="pictures" className="pictures" />
-            </Link>
-            <p className="names">{each.name}</p>
-          </li>
-        ))}
-      </ul>
-    </div>
+      <div className="projects-container">
+        <ul className="unordered">
+          {projects.map((each) => (
+            <li key={each.name} className="list">
+              <Link to={each.url} className="link">
+                <img src={each.image} alt="pictures" className="pictures" />
+              </Link>
+              <p className="names">{each.name}</p>
+            </li>
+          ))}
+        </ul>
+      </div>
+    </>
   );
 };
 
