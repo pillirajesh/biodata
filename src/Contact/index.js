@@ -60,7 +60,7 @@ const Contact = () => {
         </div>
         <div className="get-touch">
           <h5 className="mb-4">Get In Touch :</h5>
-          <h6 className="mb-3">Any Further Queries Please Contact Us </h6>
+          <h6 className="mb-3">Any Further Queries Please Contact Us . . . </h6>
 
           <p>
             <span>
@@ -89,7 +89,7 @@ const Contact = () => {
           <Link>
             <BsTwitter className="social-icon" />
           </Link>
-          <Link>
+          <Link to="https://www.linkedin.com/in/pillirajesh">
             <BsLinkedin className="social-icon" />
           </Link>
         </div>

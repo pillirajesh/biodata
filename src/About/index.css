@@ -14,11 +14,12 @@
   font-family: "roboto";
   color: black;
   font-size: 18px;
+  font-style: italic;
 }
 
 .special {
   font-family: "roboto";
-  color: black;
+  color: blue;
   font-weight: bold;
 }
 
