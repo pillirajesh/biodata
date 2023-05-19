@@ -87,18 +87,18 @@ const About = () => {
           <div className="description">
             <h4>About Me</h4>
             <p>
-              I am web developer with a vast array of knowledge in many
-              different front end and back end Languages, responsive frameworks,
-              databases, and best code practices. My objective is simply to be
-              the best web developer that i can be and to contribute to the
-              technology industry all that i know and can do. I am dedicated to
-              perfecting my craft by learning from more seasoned developers,
-              remaining humble, and contineously making stride to learn all that
-              i can about development.While a student in MAKAUT University, i
-              studied Mechanical Engineering and I believe that my understanding
-              of problem solving and analytical thinking are also skills that
-              have and will continue to contribute to my overall success as
-              developer.{" "}
+              I'm Web Developer with a passion for coding and problem-solving. I
+              am well acquinted with HTML, CSS, JavaScript and JavaScript
+              Technologies like ReactJS and NodeJS. I am an eager learner,
+              constantly striving to improve my skills and stay ahead of latest
+              trends in software development. I am also a team player and enjoy
+              collecting in projects. During my studies i was consistantly top
+              of my academics. I have also completed my Full Stack Web
+              Development Course. I am also a problem solver & I have the
+              ability to quickly find efficient solution to any problem. I am
+              good at communication & presentation skills that my core strength.
+              I Completed my B.tech in Mechanical Engineering from Maulana Abul
+              Kalam Azad University of Technology.
             </p>
           </div>
         </div>

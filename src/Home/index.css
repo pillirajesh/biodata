@@ -27,24 +27,21 @@
   font-style: italic;
   color: rgb(92, 126, 23);
   font-size: 25px;
-  border-right: 3px solid yellow;
   position: relative;
 }
 
 .job-description::after {
   content: "";
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  background: white;
-  border-left: 3px solid gold;
-  animation: typing 1.8s steps(30) infinite;
+  position: relative;
+  border-left: 3px solid rgb(98, 53, 231);
+  animation: typing 2.8s steps(20) infinite;
+  background: rgb(98, 53, 231);
 }
 
 @keyframes typing {
   100% {
-    left: 50%;
-    margin: 0 100px 0 -100px;
+    left: 10%;
+    margin: 0 200px 0 -200px;
   }
 }
 
