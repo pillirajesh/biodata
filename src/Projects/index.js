@@ -6,7 +6,7 @@ const Projects = () => {
     {
       image:
         "https://res.cloudinary.com/djoz0tmyl/image/upload/v1684777735/y_wxru4b.png",
-      url: "https://clone-ab3a6.web.app/",
+      url: "https://clone-ab3a6.firebaseapp.com/",
       name: "Youtube Clone",
     },
 
