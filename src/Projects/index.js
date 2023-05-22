@@ -5,6 +5,13 @@ const Projects = () => {
   const projects = [
     {
       image:
+        "https://res.cloudinary.com/djoz0tmyl/image/upload/v1684777735/y_wxru4b.png",
+      url: "https://clone-ab3a6.web.app/",
+      name: "Youtube Clone",
+    },
+
+    {
+      image:
         "https://www.livelaw.in/h-upload/2020/04/17/1500x900_373262-aarogya-setu-app-1.jpg",
       url: "https://cowin-dashoard.web.app/",
       name: "Cowin Dashboard",
