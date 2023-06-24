@@ -17,10 +17,8 @@
   margin-bottom: 10px;
 }
 
-@media screen and (min-width: 767px) {
-  .small-header-container {
-    display: none;
-  }
+.navbar {
+  display: none;
 }
 
 .unordered-list {
@@ -65,7 +63,7 @@
     border-color: white;
   }
 
-  .container-fluid {
-    background-color: black;
+  .navbar {
+    display: block;
   }
 }

@@ -1,6 +1,5 @@
 import "./index.css";
 import { Link } from "react-router-dom";
-import Header from "../Header";
 const Projects = () => {
   const projects = [
     {
@@ -101,21 +100,16 @@ const Projects = () => {
     },
   ];
   return (
-    <>
-      <Header />
-      <div className="projects-container">
-        <ul className="unordered">
-          {projects.map((each) => (
-            <li key={each.name} className="list">
-              <Link to={each.url} className="link">
-                <img src={each.image} alt="pictures" className="pictures" />
-              </Link>
-              <p className="names">{each.name}</p>
-            </li>
-          ))}
-        </ul>
-      </div>
-    </>
+    <ul className="unordered">
+      {projects.map((each) => (
+        <li key={each.name} className="list">
+          <Link to={each.url} className="link">
+            <img src={each.image} alt="pictures" className="pictures" />
+          </Link>
+          <p className="names">{each.name}</p>
+        </li>
+      ))}
+    </ul>
   );
 };
 

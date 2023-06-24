@@ -27,13 +27,15 @@ const Header = () => {
           </Link>
         </ul>
       </nav>
-      <nav class="navbar bg-body-tertiary fixed-top small-header-container">
+      <nav class="navbar navbar-dark bg-black fixed-top">
         <div class="container-fluid">
-          <img
-            src="https://res.cloudinary.com/djoz0tmyl/image/upload/v1684313904/photo_-_Copy_c7lkcw.jpg"
-            alt="profile"
-            className="pic"
-          />
+          <Link to="/" className="link">
+            <img
+              src="https://res.cloudinary.com/djoz0tmyl/image/upload/v1684313904/photo_-_Copy_c7lkcw.jpg"
+              alt="profile"
+              className="pic"
+            />
+          </Link>
           <button
             class="navbar-toggler"
             type="button"

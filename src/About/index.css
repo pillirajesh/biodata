@@ -1,9 +1,11 @@
 .about-container {
   height: 100vh;
-  width: 100vw;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: auto;
+  padding: 10px;
 }
 
 .picture {
@@ -16,14 +18,14 @@
 
 #profile-name {
   font-family: "roboto";
-  color: black;
+  color: yellow;
   font-size: 18px;
   font-style: italic;
 }
 
 .special {
   font-family: "roboto";
-  color: blue;
+  color: white;
   font-weight: bold;
 }
 
@@ -33,22 +35,34 @@
   align-items: flex-start;
 }
 
+.skills > p {
+  color: white;
+}
+
+.skills > h4 {
+  color: rgb(95, 216, 79);
+  font-size: 22px;
+  font-style: italic;
+  text-decoration: underline;
+}
+
 .about {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
   margin-top: 20px;
   padding: 20px;
-  width: 90vw;
   margin-top: 70px;
   border-radius: 10px;
-  background-color: white;
+  background-color: rgb(107, 62, 179);
+  width: 90%;
 }
 
 .description {
-  width: 800px;
+  width: 50%;
   font-family: "bree serif";
   font-style: italic;
+  color: white;
 }
 
 .star {
@@ -56,28 +70,37 @@
 }
 
 @media screen and (max-width: 767px) {
+  .about-container {
+    margin-top: 50px;
+    width: 100%;
+  }
+
+  .picture {
+    margin-left: 25px;
+  }
+
   .about {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: transparent;
+    margin-top: 400px;
+    width: 100%;
+    background-color: rgb(107, 62, 179);
+    padding: 20px;
   }
 
   .description {
-    width: 400px;
-    margin-bottom: 20px;
-    height: 180px;
+    width: 100%;
     font-size: 15px;
-  }
-
-  .about-container {
-    overflow-y: scroll;
   }
 
   .skills {
     height: 200px;
     margin-bottom: 40px;
     font-size: 15px;
+    margin-left: 25px;
   }
 
   .profile-cont {
@@ -87,5 +110,10 @@
 
   #profile-name {
     font-size: 15px;
+  }
+
+  .profile-name-container {
+    width: 100%;
+    margin-right: 5px;
   }
 }
