@@ -7,7 +7,7 @@ const Header = () => {
       <nav className="header-container  ">
         <Link to="/" className="link">
           <img
-            src="https://res.cloudinary.com/djoz0tmyl/image/upload/v1684313904/photo_-_Copy_c7lkcw.jpg"
+            src="https://pps.whatsapp.net/v/t61.24694-24/336253290_170388569191195_7934902760114985062_n.jpg?ccb=11-4&oh=01_AdRpnxn7Ar8-yx-ItCeAUaSLcgpmvisj8GTi97cX4XNw4w&oe=64A43312"
             alt="profile"
             className="pic"
           />
@@ -31,7 +31,7 @@ const Header = () => {
         <div class="container-fluid">
           <Link to="/" className="link">
             <img
-              src="https://res.cloudinary.com/djoz0tmyl/image/upload/v1684313904/photo_-_Copy_c7lkcw.jpg"
+              src="https://pps.whatsapp.net/v/t61.24694-24/336253290_170388569191195_7934902760114985062_n.jpg?ccb=11-4&oh=01_AdRpnxn7Ar8-yx-ItCeAUaSLcgpmvisj8GTi97cX4XNw4w&oe=64A43312"
               alt="profile"
               className="pic"
             />

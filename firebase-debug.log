@@ -1,0 +1,112 @@
+[debug] [2023-06-24T18:49:57.955Z] ----------------------------------------------------------------------
+[debug] [2023-06-24T18:49:57.962Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Lenovo\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2023-06-24T18:49:57.963Z] CLI Version:   12.4.0
+[debug] [2023-06-24T18:49:57.964Z] Platform:      win32
+[debug] [2023-06-24T18:49:57.965Z] Node Version:  v18.13.0
+[debug] [2023-06-24T18:49:57.969Z] Time:          Sun Jun 25 2023 00:19:57 GMT+0530 (India Standard Time)
+[debug] [2023-06-24T18:49:57.969Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-06-24T18:49:57.981Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2023-06-24T18:49:58.357Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-06-24T18:49:58.358Z] > authorizing via signed-in user (pillirajesh05@gmail.com)
+[debug] [2023-06-24T18:49:58.359Z] [iam] checking project biodata-website-96e9e for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2023-06-24T18:49:58.362Z] > refreshing access token with scopes: []
+[debug] [2023-06-24T18:49:58.366Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-06-24T18:49:58.366Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-06-24T18:49:59.049Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2023-06-24T18:49:59.050Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-06-24T18:49:59.090Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/biodata-website-96e9e:testIamPermissions [none]
+[debug] [2023-06-24T18:49:59.092Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/biodata-website-96e9e:testIamPermissions x-goog-quota-user=projects/biodata-website-96e9e
+[debug] [2023-06-24T18:49:59.092Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/biodata-website-96e9e:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-06-24T18:49:59.279Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2023-06-24T18:49:59.279Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[debug] [2023-06-24T18:50:00.980Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/biodata-website-96e9e:testIamPermissions 200
+[debug] [2023-06-24T18:50:00.981Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/biodata-website-96e9e:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-06-24T18:50:00.984Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/biodata-website-96e9e [none]
+[debug] [2023-06-24T18:50:01.850Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/biodata-website-96e9e 200
+[debug] [2023-06-24T18:50:01.850Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/biodata-website-96e9e {"projectId":"biodata-website-96e9e","projectNumber":"804399163684","displayName":"Biodata Website","name":"projects/biodata-website-96e9e","resources":{"hostingSite":"biodata-website-96e9e"},"state":"ACTIVE","etag":"1_c5dd1804-1c7e-453a-9c35-517ecc1e3c5b"}
+[info] 
+[info] === Deploying to 'biodata-website-96e9e'...
+[info] 
+[info] i  deploying hosting 
+[debug] [2023-06-24T18:50:01.875Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/biodata-website-96e9e/versions [none]
+[debug] [2023-06-24T18:50:01.875Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/biodata-website-96e9e/versions {"status":"CREATED","labels":{"deployment-tool":"cli-firebase"}}
+[debug] [2023-06-24T18:50:03.540Z] <<< [apiv2][status] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/biodata-website-96e9e/versions 200
+[debug] [2023-06-24T18:50:03.541Z] <<< [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/biodata-website-96e9e/versions {"name":"projects/804399163684/sites/biodata-website-96e9e/versions/e9c8be047b09e5c7","status":"CREATED","config":{},"labels":{"deployment-tool":"cli-firebase"}}
+[info] i  hosting[biodata-website-96e9e]: beginning deploy... 
+[info] i  hosting[biodata-website-96e9e]: found 7 files in build 
+[debug] [2023-06-24T18:50:22.996Z] [hosting] uploading with 200 concurrency
+[debug] [2023-06-24T18:50:24.056Z] [hosting] hash cache [YnVpbGQ] stored for 7 files
+[debug] [2023-06-24T18:50:24.058Z] [hosting][hash queue][FINAL] {"max":930,"min":22,"avg":157,"active":0,"complete":7,"success":7,"errored":0,"retried":0,"total":7,"elapsed":952}
+[debug] [2023-06-24T18:50:24.060Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/projects/804399163684/sites/biodata-website-96e9e/versions/e9c8be047b09e5c7:populateFiles [none]
+[debug] [2023-06-24T18:50:24.060Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/804399163684/sites/biodata-website-96e9e/versions/e9c8be047b09e5c7:populateFiles {"files":{"/asset-manifest.json":"2e7f2e9121d3ec64750e21ff0b61b4a327ad4e0b1634c39a64adb7603d60827f","/index.html":"2ecb473fe327ebfb86e13503c6456b745217ee9b7a3511eeaa4a6e71df0d1829","/static/css/main.7db63409.css":"2429460d590743e71a743570647d1d902daac7f98993d5c03ecb0a7202e90338","/static/css/main.7db63409.css.map":"1ebc924f0e4c1582525acab03de833ce974f90f2982ee41e941f7e0b711c7bf9","/static/js/main.5dac492c.js.LICENSE.txt":"4fd89f8add54f66310cb0a216f8580f6217d6a61f2ac116d1b0c34f900806e03","/static/js/main.5dac492c.js":"239621444027f06c1ce604d7fc5729b025541b837e0a24cc1605fb974f36833d","/static/js/main.5dac492c.js.map":"cea2db7a731b4299540d270a513661f554da6e822de7fa6fbab1a3febb3f7117"}}
+[debug] [2023-06-24T18:50:25.301Z] <<< [apiv2][status] POST https://firebasehosting.googleapis.com/v1beta1/projects/804399163684/sites/biodata-website-96e9e/versions/e9c8be047b09e5c7:populateFiles 200
+[debug] [2023-06-24T18:50:25.301Z] <<< [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/804399163684/sites/biodata-website-96e9e/versions/e9c8be047b09e5c7:populateFiles {"uploadRequiredHashes":["1ebc924f0e4c1582525acab03de833ce974f90f2982ee41e941f7e0b711c7bf9","239621444027f06c1ce604d7fc5729b025541b837e0a24cc1605fb974f36833d","cea2db7a731b4299540d270a513661f554da6e822de7fa6fbab1a3febb3f7117","2e7f2e9121d3ec64750e21ff0b61b4a327ad4e0b1634c39a64adb7603d60827f","2ecb473fe327ebfb86e13503c6456b745217ee9b7a3511eeaa4a6e71df0d1829","2429460d590743e71a743570647d1d902daac7f98993d5c03ecb0a7202e90338"],"uploadUrl":"https://upload-firebasehosting.googleapis.com/upload/sites/biodata-website-96e9e/versions/e9c8be047b09e5c7/files"}
+[debug] [2023-06-24T18:50:25.306Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/biodata-website-96e9e/versions/e9c8be047b09e5c7/files/1ebc924f0e4c1582525acab03de833ce974f90f2982ee41e941f7e0b711c7bf9 [none]
+[debug] [2023-06-24T18:50:25.306Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/biodata-website-96e9e/versions/e9c8be047b09e5c7/files/1ebc924f0e4c1582525acab03de833ce974f90f2982ee41e941f7e0b711c7bf9 [stream]
+[debug] [2023-06-24T18:50:25.309Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/biodata-website-96e9e/versions/e9c8be047b09e5c7/files/239621444027f06c1ce604d7fc5729b025541b837e0a24cc1605fb974f36833d [none]
+[debug] [2023-06-24T18:50:25.309Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/biodata-website-96e9e/versions/e9c8be047b09e5c7/files/239621444027f06c1ce604d7fc5729b025541b837e0a24cc1605fb974f36833d [stream]
+[debug] [2023-06-24T18:50:25.312Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/biodata-website-96e9e/versions/e9c8be047b09e5c7/files/cea2db7a731b4299540d270a513661f554da6e822de7fa6fbab1a3febb3f7117 [none]
+[debug] [2023-06-24T18:50:25.313Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/biodata-website-96e9e/versions/e9c8be047b09e5c7/files/cea2db7a731b4299540d270a513661f554da6e822de7fa6fbab1a3febb3f7117 [stream]
+[debug] [2023-06-24T18:50:25.315Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/biodata-website-96e9e/versions/e9c8be047b09e5c7/files/2e7f2e9121d3ec64750e21ff0b61b4a327ad4e0b1634c39a64adb7603d60827f [none]
+[debug] [2023-06-24T18:50:25.315Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/biodata-website-96e9e/versions/e9c8be047b09e5c7/files/2e7f2e9121d3ec64750e21ff0b61b4a327ad4e0b1634c39a64adb7603d60827f [stream]
+[debug] [2023-06-24T18:50:25.318Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/biodata-website-96e9e/versions/e9c8be047b09e5c7/files/2ecb473fe327ebfb86e13503c6456b745217ee9b7a3511eeaa4a6e71df0d1829 [none]
+[debug] [2023-06-24T18:50:25.318Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/biodata-website-96e9e/versions/e9c8be047b09e5c7/files/2ecb473fe327ebfb86e13503c6456b745217ee9b7a3511eeaa4a6e71df0d1829 [stream]
+[debug] [2023-06-24T18:50:25.321Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/biodata-website-96e9e/versions/e9c8be047b09e5c7/files/2429460d590743e71a743570647d1d902daac7f98993d5c03ecb0a7202e90338 [none]
+[debug] [2023-06-24T18:50:25.321Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/biodata-website-96e9e/versions/e9c8be047b09e5c7/files/2429460d590743e71a743570647d1d902daac7f98993d5c03ecb0a7202e90338 [stream]
+[debug] [2023-06-24T18:50:25.324Z] [hosting][populate queue][FINAL] {"max":1260,"min":1260,"avg":1260,"active":0,"complete":1,"success":1,"errored":0,"retried":0,"total":1,"elapsed":1278}
+[debug] [2023-06-24T18:50:25.325Z] [hosting] uploads queued: 6
+[debug] [2023-06-24T18:50:27.229Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/biodata-website-96e9e/versions/e9c8be047b09e5c7/files/2429460d590743e71a743570647d1d902daac7f98993d5c03ecb0a7202e90338 200
+[debug] [2023-06-24T18:50:27.229Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/biodata-website-96e9e/versions/e9c8be047b09e5c7/files/2429460d590743e71a743570647d1d902daac7f98993d5c03ecb0a7202e90338 [stream]
+[debug] [2023-06-24T18:50:27.268Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/biodata-website-96e9e/versions/e9c8be047b09e5c7/files/1ebc924f0e4c1582525acab03de833ce974f90f2982ee41e941f7e0b711c7bf9 200
+[debug] [2023-06-24T18:50:27.269Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/biodata-website-96e9e/versions/e9c8be047b09e5c7/files/1ebc924f0e4c1582525acab03de833ce974f90f2982ee41e941f7e0b711c7bf9 [stream]
+[debug] [2023-06-24T18:50:27.453Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/biodata-website-96e9e/versions/e9c8be047b09e5c7/files/2ecb473fe327ebfb86e13503c6456b745217ee9b7a3511eeaa4a6e71df0d1829 200
+[debug] [2023-06-24T18:50:27.454Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/biodata-website-96e9e/versions/e9c8be047b09e5c7/files/2ecb473fe327ebfb86e13503c6456b745217ee9b7a3511eeaa4a6e71df0d1829 [stream]
+[debug] [2023-06-24T18:50:27.658Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/biodata-website-96e9e/versions/e9c8be047b09e5c7/files/2e7f2e9121d3ec64750e21ff0b61b4a327ad4e0b1634c39a64adb7603d60827f 200
+[debug] [2023-06-24T18:50:27.659Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/biodata-website-96e9e/versions/e9c8be047b09e5c7/files/2e7f2e9121d3ec64750e21ff0b61b4a327ad4e0b1634c39a64adb7603d60827f [stream]
+[debug] [2023-06-24T18:50:27.946Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/biodata-website-96e9e/versions/e9c8be047b09e5c7/files/239621444027f06c1ce604d7fc5729b025541b837e0a24cc1605fb974f36833d 200
+[debug] [2023-06-24T18:50:27.946Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/biodata-website-96e9e/versions/e9c8be047b09e5c7/files/239621444027f06c1ce604d7fc5729b025541b837e0a24cc1605fb974f36833d [stream]
+[debug] [2023-06-24T18:50:31.912Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/biodata-website-96e9e/versions/e9c8be047b09e5c7/files/cea2db7a731b4299540d270a513661f554da6e822de7fa6fbab1a3febb3f7117 200
+[debug] [2023-06-24T18:50:31.913Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/biodata-website-96e9e/versions/e9c8be047b09e5c7/files/cea2db7a731b4299540d270a513661f554da6e822de7fa6fbab1a3febb3f7117 [stream]
+[debug] [2023-06-24T18:50:31.913Z] [hosting][upload queue][FINAL] {"max":6610,"min":1925,"avg":2941.8333333333335,"active":0,"complete":6,"success":6,"errored":0,"retried":0,"total":6,"elapsed":6612}
+[info] +  hosting[biodata-website-96e9e]: file upload complete 
+[debug] [2023-06-24T18:50:31.917Z] [hosting] deploy completed after 8958ms
+[debug] [2023-06-24T18:50:31.923Z] [
+  {
+    "config": {
+      "public": "build",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "site": "biodata-website-96e9e"
+    },
+    "version": "projects/804399163684/sites/biodata-website-96e9e/versions/e9c8be047b09e5c7"
+  }
+]
+[info] i  hosting[biodata-website-96e9e]: finalizing version... 
+[debug] [2023-06-24T18:50:31.931Z] >>> [apiv2][query] PATCH https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/biodata-website-96e9e/versions/e9c8be047b09e5c7 updateMask=status%2Cconfig
+[debug] [2023-06-24T18:50:31.931Z] >>> [apiv2][body] PATCH https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/biodata-website-96e9e/versions/e9c8be047b09e5c7 {"status":"FINALIZED","config":{}}
+[debug] [2023-06-24T18:50:33.051Z] <<< [apiv2][status] PATCH https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/biodata-website-96e9e/versions/e9c8be047b09e5c7 200
+[debug] [2023-06-24T18:50:33.052Z] <<< [apiv2][body] PATCH https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/biodata-website-96e9e/versions/e9c8be047b09e5c7 {"name":"projects/804399163684/sites/biodata-website-96e9e/versions/e9c8be047b09e5c7","status":"FINALIZED","config":{},"labels":{"deployment-tool":"cli-firebase"},"createTime":"2023-06-24T18:50:03.743901Z","createUser":{"email":"pillirajesh05@gmail.com"},"finalizeTime":"2023-06-24T18:50:33.599342Z","finalizeUser":{"email":"pillirajesh05@gmail.com"}}
+[debug] [2023-06-24T18:50:33.052Z] [hosting] finalized version for biodata-website-96e9e:[object Object]
+[info] +  hosting[biodata-website-96e9e]: version finalized 
+[info] i  hosting[biodata-website-96e9e]: releasing new version... 
+[debug] [2023-06-24T18:50:33.056Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/biodata-website-96e9e/channels/live/releases versionName=projects%2F804399163684%2Fsites%2Fbiodata-website-96e9e%2Fversions%2Fe9c8be047b09e5c7
+[debug] [2023-06-24T18:50:33.056Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/biodata-website-96e9e/channels/live/releases {}
+[debug] [2023-06-24T18:50:34.259Z] <<< [apiv2][status] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/biodata-website-96e9e/channels/live/releases 200
+[debug] [2023-06-24T18:50:34.260Z] <<< [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/biodata-website-96e9e/channels/live/releases {"name":"projects/804399163684/sites/biodata-website-96e9e/channels/live/releases/1687632634186000","version":{"name":"projects/804399163684/sites/biodata-website-96e9e/versions/e9c8be047b09e5c7","status":"FINALIZED","config":{},"labels":{"deployment-tool":"cli-firebase"},"createTime":"2023-06-24T18:50:03.743901Z","createUser":{"email":"pillirajesh05@gmail.com","imageUrl":"https://lh3.googleusercontent.com/a/AAcHTteHl5uSCA5fSelDlD7gPVmcixJxn82dVR5PjAWKjQ"},"finalizeTime":"2023-06-24T18:50:33.599342Z","finalizeUser":{"email":"pillirajesh05@gmail.com","imageUrl":"https://lh3.googleusercontent.com/a/AAcHTteHl5uSCA5fSelDlD7gPVmcixJxn82dVR5PjAWKjQ"}},"type":"DEPLOY","releaseTime":"2023-06-24T18:50:34.186Z","releaseUser":{"email":"pillirajesh05@gmail.com","imageUrl":"https://lh3.googleusercontent.com/a/AAcHTteHl5uSCA5fSelDlD7gPVmcixJxn82dVR5PjAWKjQ"}}
+[debug] [2023-06-24T18:50:34.260Z] [hosting] release: {"name":"projects/804399163684/sites/biodata-website-96e9e/channels/live/releases/1687632634186000","version":{"name":"projects/804399163684/sites/biodata-website-96e9e/versions/e9c8be047b09e5c7","status":"FINALIZED","config":{},"labels":{"deployment-tool":"cli-firebase"},"createTime":"2023-06-24T18:50:03.743901Z","createUser":{"email":"pillirajesh05@gmail.com","imageUrl":"https://lh3.googleusercontent.com/a/AAcHTteHl5uSCA5fSelDlD7gPVmcixJxn82dVR5PjAWKjQ"},"finalizeTime":"2023-06-24T18:50:33.599342Z","finalizeUser":{"email":"pillirajesh05@gmail.com","imageUrl":"https://lh3.googleusercontent.com/a/AAcHTteHl5uSCA5fSelDlD7gPVmcixJxn82dVR5PjAWKjQ"}},"type":"DEPLOY","releaseTime":"2023-06-24T18:50:34.186Z","releaseUser":{"email":"pillirajesh05@gmail.com","imageUrl":"https://lh3.googleusercontent.com/a/AAcHTteHl5uSCA5fSelDlD7gPVmcixJxn82dVR5PjAWKjQ"}}
+[info] +  hosting[biodata-website-96e9e]: release complete 
+[info] 
+[info] +  Deploy complete! 
+[info] 
+[info] Project Console: https://console.firebase.google.com/project/biodata-website-96e9e/overview
+[info] Hosting URL: https://biodata-website-96e9e.web.app
+[debug] [2023-06-24T18:51:05.355Z] Error: Timed out.
+    at Timeout._onTimeout (C:\Users\Lenovo\AppData\Roaming\npm\node_modules\firebase-tools\lib\utils.js:253:49)
+    at listOnTimeout (node:internal/timers:564:17)
+    at process.processTimers (node:internal/timers:507:7)
+[error] 
+[error] Error: An unexpected error has occurred.

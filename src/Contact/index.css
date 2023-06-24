@@ -10,7 +10,7 @@
 .message-container {
   display: flex;
   justify-content: space-around;
-  align-items: center;
+  align-items: flex-start;
   width: 100%;
 }
 
@@ -19,15 +19,16 @@
   padding: 10px;
   width: 100%;
   font-family: "roboto";
-  color: grey;
   outline: none;
+  background-color: transparent;
+  border: 1px solid grey;
+  border-radius: 5px;
 }
 
 .button {
   width: 100%;
-  height: 50px;
   background-color: blueviolet;
-  padding: 5px;
+  padding: 10px;
   border-radius: 5px;
   border: none;
   cursor: pointer;
@@ -38,6 +39,7 @@
 
 .icon {
   font-size: 20px;
+  color: blue;
 }
 
 .social-icon {
@@ -46,6 +48,27 @@
   margin-top: 20px;
   border-radius: 50px;
   padding: 5px;
+  color: blueviolet;
+}
+
+.message {
+  width: 30%;
+}
+
+.message > h5 {
+  color: blueviolet;
+  font-style: italic;
+}
+
+.get-touch > h5 {
+  color: blueviolet;
+  font-style: italic;
+  margin-top: 15px;
+}
+
+.get-touch > h6 {
+  color: rgb(68, 0, 255);
+  line-height: 5px;
 }
 
 @media screen and (max-width: 767px) {
@@ -59,7 +82,7 @@
   .get-touch {
     width: 80%;
     margin-top: 20px;
-    font-size: 15px;
+    font-size: 13px;
     height: auto;
   }
 
@@ -72,10 +95,20 @@
   }
 
   .input {
-    width: 250px;
+    width: 100%;
+    padding: 7px;
+    border-radius: 5px;
+    border: 1px solid rgb(156, 152, 152);
   }
 
   .button {
-    width: 250px;
+    width: 50%;
+  }
+
+  .social-icon {
+    font-size: 35px;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    color: blue;
   }
 }

@@ -6,8 +6,10 @@
   padding-right: 20px;
   font-family: "roboto";
   padding-top: 10px;
-  background-color: black;
+  background-color: rgb(97, 42, 170);
   width: 100vw;
+  position: sticky;
+  top: 0;
 }
 
 .pic {

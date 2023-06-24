@@ -9,14 +9,13 @@ import {
 import { MdEmail } from "react-icons/md";
 import "./index.css";
 import { Link } from "react-router-dom";
-import { useState } from "react";
 
 const Contact = () => {
   return (
     <div className="contact-container">
       <div className="message-container">
         <div className="message">
-          <h5 className="mb-3">Contact :</h5>
+          <h5 className="mb-3">Connect With Me ...</h5>
           <form action="https://formspree.io/f/xknlwggw" method="POST">
             <input
               type="text"
@@ -25,6 +24,7 @@ const Contact = () => {
               className="input"
               name="Name"
               autoComplete="off"
+              required
             />
             <br />
 
@@ -35,6 +35,7 @@ const Contact = () => {
               className="input"
               name="Email"
               autoComplete="off"
+              required
             />
             <br />
 
@@ -45,6 +46,7 @@ const Contact = () => {
               className="input"
               name="Subject"
               autoComplete="off"
+              required
             />
             <br />
 
@@ -55,6 +57,7 @@ const Contact = () => {
               className="input"
               name="Message"
               autoComplete="off"
+              required
             />
             <br />
             <button type="submit" className="button">
@@ -63,9 +66,9 @@ const Contact = () => {
           </form>
         </div>
         <div className="get-touch">
-          <h5 className="mb-4">Get In Touch :</h5>
+          <h5 className="mb-4">Get In Touch ...</h5>
           <h6 className="mb-3" style={{ fontStyle: "italic" }}>
-            Any Further Queries Please Contact Us . . .{" "}
+            Any Further Queries Please Contact Us...
           </h6>
 
           <p>
