@@ -5,6 +5,13 @@ const Projects = () => {
   const projects = [
     {
       image:
+        "https://media.istockphoto.com/id/1057397492/vector/maze-brain.jpg?s=612x612&w=0&k=20&c=pTAyOIIrSznJZnh3OsEL9OTzmFzxx8AsZxHH-UATwX8=",
+      url: "https://emojigame-6b088.web.app/",
+      name: "Memory Game",
+    },
+
+    {
+      image:
         "https://res.cloudinary.com/djoz0tmyl/image/upload/v1684777735/y_wxru4b.png",
       url: "https://clone-ab3a6.firebaseapp.com/",
       name: "Youtube Clone",
