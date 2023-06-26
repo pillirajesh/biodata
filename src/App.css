@@ -4,11 +4,11 @@ body {
 }
 
 .app-container {
+  height: 100vh;
   background-image: linear-gradient(
     to right,
     whitesmoke 15%,
     rgb(219, 232, 27)
   );
   background-size: cover;
-  min-height: 100vh;
 }

@@ -1,13 +1,14 @@
 .middle-container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   height: 100vh;
   width: 100%;
-  background-image: url("https://e0.pxfuel.com/wallpapers/329/765/desktop-wallpaper-web-design-dark-developer.jpg");
+  background-image: url("https://cdn.pixabay.com/photo/2015/12/01/15/43/black-1072366_1280.jpg");
   background-position: center;
   background-size: cover;
+  padding-top: 30px;
 }
 
 .profile-name {
@@ -39,10 +40,11 @@
   cursor: pointer;
   outline: none;
   font-family: "roboto";
-  color: white;
+  color: yellow;
   padding: 7px;
-  border: 1px solid rgb(181, 215, 26);
+  border: 1px solid white;
   border-radius: 5px;
+  font-weight: 700;
 }
 
 .connect-button:hover {
@@ -52,7 +54,7 @@
 }
 
 .job {
-  color: blueviolet;
+  color: white;
   font-size: 20px;
   font-weight: bold;
 }
@@ -64,7 +66,7 @@
   border-bottom-right-radius: 60px;
   align-self: flex-end;
   margin-right: 30px;
-  box-shadow: 5px 5px yellow;
+  box-shadow: 3px 3px yellow;
 }
 
 @keyframes typing {
