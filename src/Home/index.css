@@ -45,9 +45,30 @@
   border: 1px solid white;
   border-radius: 5px;
   font-weight: 700;
+  width: 150px;
+  margin-right: 30px;
+}
+
+.video-button {
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+  font-family: "roboto";
+  color: yellow;
+  padding: 7px;
+  border: 1px solid white;
+  border-radius: 5px;
+  font-weight: 700;
+  width: 150px;
 }
 
 .connect-button:hover {
+  transform: scale(1.1);
+  z-index: 1.1;
+  font-style: italic;
+}
+
+.video-button:hover {
   transform: scale(1.1);
   z-index: 1.1;
   font-style: italic;
@@ -107,5 +128,22 @@
 
   .middle-container {
     background-size: auto;
+  }
+
+  .connect-button {
+    width: 140px;
+  }
+
+  .video-button {
+    width: 140px;
+  }
+
+  .button-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
   }
 }

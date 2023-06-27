@@ -21,11 +21,18 @@ const Home = () => {
           I will bridge the gap between the both Front-End and Back-End
           Technologies . . .
         </p>
-        <Link to="/contact" className="link">
-          <button type="button" className="connect-button">
-            Connect With Me
-          </button>
-        </Link>
+        <div className="button-container">
+          <Link to="/contact" className="link">
+            <button type="button" className="connect-button">
+              Connect With Me
+            </button>
+          </Link>
+          <Link to="/video" className="link">
+            <button type="button" className="video-button">
+              Watch Video
+            </button>
+          </Link>
+        </div>
       </div>
     </>
   );
