@@ -64,7 +64,7 @@ const Header = () => {
               ></button>
             </div>
             <div class="offcanvas-body ">
-              <ul class="navbar-nav justify-content-end  flex-grow-1 pe-3">
+              <ul class="navbar-nav flex-grow-1 pe-3">
                 <Link className="link" to="/">
                   <li class="nav-item">Home</li>
                 </Link>

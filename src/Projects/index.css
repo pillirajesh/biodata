@@ -32,6 +32,13 @@
   text-align: center;
 }
 
+.list1 {
+  list-style-type: none;
+  margin-right: 20px;
+  font-family: "roboto";
+  color: white;
+}
+
 @media screen and (max-width: 767px) {
   .unordered {
     display: flex;

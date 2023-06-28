@@ -24,12 +24,12 @@ const Home = () => {
         <div className="button-container">
           <Link to="/contact" className="link">
             <button type="button" className="connect-button">
-              Connect With Me
+              Connect Me
             </button>
           </Link>
           <Link to="/video" className="link">
             <button type="button" className="video-button">
-              Watch Video
+              Play Intro
             </button>
           </Link>
         </div>

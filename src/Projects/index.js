@@ -102,7 +102,7 @@ const Projects = () => {
   return (
     <ul className="unordered">
       {projects.map((each) => (
-        <li key={each.name} className="list">
+        <li key={each.name} className="list1">
           <Link to={each.url} className="link">
             <img src={each.image} alt="pictures" className="pictures" />
           </Link>
