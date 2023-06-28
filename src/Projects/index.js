@@ -3,6 +3,12 @@ import { Link } from "react-router-dom";
 const Projects = () => {
   const projects = [
     {
+      image: "https://static1.bigstockphoto.com/5/0/3/large1500/305827249.jpg",
+      url: "https://rbmiapp.ccbp.tech",
+      name: "BMI App",
+    },
+
+    {
       image:
         "https://media.istockphoto.com/id/1057397492/vector/maze-brain.jpg?s=612x612&w=0&k=20&c=pTAyOIIrSznJZnh3OsEL9OTzmFzxx8AsZxHH-UATwX8=",
       url: "https://emojigame-6b088.web.app/",
